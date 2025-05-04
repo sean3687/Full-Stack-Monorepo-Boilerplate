@@ -84,4 +84,3 @@ Learn more about the power of Turborepo:
 - [Configuration Options](https://turbo.build/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/docs/reference/command-line-reference)
 # turbo-monorepo
-# tailordify
