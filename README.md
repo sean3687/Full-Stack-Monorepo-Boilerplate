@@ -4,16 +4,6 @@ This Turborepo starter is a modern, high-performance monorepo setup, designed fo
 
 ---
 
-## Getting Started
-
-To create a new project using this template, run:
-
-```bash
-npx create-turbo@latest
-```
-
----
-
 ## What's Inside?
 
 This Turborepo includes the following apps and packages:
@@ -26,6 +16,7 @@ This Turborepo includes the following apps and packages:
 ### **📚 Shared Packages**
 
 * **`@repo/ui`** - A React component library shared across the monorepo
+* **`@repo/supabase`** - Supabase setup
 * **`@repo/eslint-config`** - Shared ESLint configuration for consistent linting across packages
 * **`@repo/typescript-config`** - Shared TypeScript configurations for consistency
 
@@ -47,8 +38,8 @@ This Turborepo includes the following apps and packages:
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-repo/turborepo-starter.git
-cd turborepo-starter
+git clone https://github.com/sean3687/turbo-monorepo.git
+cd turbo-monorepo
 yarn install
 ```
 
