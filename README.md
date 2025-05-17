@@ -1,86 +1,98 @@
-# Turborepo starter
+# Turborepo Starter
 
-This Turborepo starter is maintained by the Turborepo core team.
+This Turborepo starter is a modern, high-performance monorepo setup, designed for building full-stack applications using Next.js and Express with TypeScript. It provides a solid foundation for rapidly developing, scaling, and maintaining projects in a unified codebase.
 
-## Using this example
+---
 
-Run the following command:
+## Getting Started
 
-```sh
+To create a new project using this template, run:
+
+```bash
 npx create-turbo@latest
 ```
 
-## What's inside?
+---
 
-This Turborepo includes the following packages/apps:
+## What's Inside?
 
-### Apps and Packages
+This Turborepo includes the following apps and packages:
 
-- `web`: another [Remix](https://remix.run/docs/en/main/start/quickstart) app
-- `api` : Express backend [Express](https://expressjs.com/) app
-- `docs`: document
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### **📦 Apps**
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+* **`web`** - A Next.js app for the frontend ([Next.js Docs](https://nextjs.org/docs))
+* **`api`** - An Express.js app for the backend ([Express.js Docs](https://expressjs.com))
 
-### Utilities
+### **📚 Shared Packages**
 
-This Turborepo has some additional tools already setup for you:
+* **`@repo/ui`** - A React component library shared across the monorepo
+* **`@repo/eslint-config`** - Shared ESLint configuration for consistent linting across packages
+* **`@repo/typescript-config`** - Shared TypeScript configurations for consistency
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+---
 
-### Build
+## 🚀 Key Features
 
-To build all apps and packages, run the following command:
+* **Monorepo Efficiency**: Manage multiple apps and packages with a single codebase.
+* **Next.js Frontend**: Fast and SEO-friendly frontend with TypeScript support.
+* **Express.js Backend**: Robust API backend with full TypeScript support.
+* **Reusable Components**: Centralized UI library for consistent design and reduced code duplication.
+* **Consistent Code Quality**: Shared ESLint and TypeScript configurations.
+* **Optimized Builds**: Blazing-fast build speeds with Turborepo caching.
 
-```
-#From root
-yarn build
-```
+---
 
-### Develop
+## 📦 Installation
 
-To develop all apps and packages, run the following command:
+Clone this repository and install dependencies:
 
-```
-cd my-turborepo
-yarn dev
-```
-
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
+```bash
+git clone https://github.com/your-repo/turborepo-starter.git
+cd turborepo-starter
+yarn install
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+---
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+## 📄 Scripts
+
+Here are some useful scripts for development:
+
+* **`yarn dev`** - Start both the Next.js frontend and Express.js backend
+* **`yarn build`** - Build all apps and packages
+* **`yarn lint`** - Run ESLint across the entire monorepo
+* **`yarn check-types`** - Run TypeScript type checking
+
+---
+
+## 📁 Directory Structure
 
 ```
-npx turbo link
+apps/
+├── web/        # Next.js frontend
+└── api/        # Express.js backend
+packages/
+├── ui/         # Shared React component library
+├── supabase/   # Database 
+├── eslint-config/ # Shared ESLint config
+└── typescript-config/ # Shared TypeScript config
 ```
 
-## Useful Links
+---
 
-Learn more about the power of Turborepo:
+## 📂 Setup Database
 
-- [Tasks](https://turbo.build/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/docs/reference/command-line-reference)
-# turbo-monorepo
+This section is for users who have just cloned the repository and need to set up the local database. This project uses Supabase for database management, with migrations handled through the Supabase CLI. Follow these steps to get your database up and running.
+
+
+---
+
+## 📂 Contributing
+
+If you find a bug or have a feature request, please open an issue or submit a pull request.
+
+---
+
+## 🤝 License
+
+This project is licensed under the MIT License.

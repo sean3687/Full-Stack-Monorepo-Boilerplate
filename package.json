@@ -1,5 +1,5 @@
 {
-  "name": "Tairodify",
+  "name": "demo-repo",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -20,5 +20,11 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "resolutions": {
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.7"
+  }
 }
