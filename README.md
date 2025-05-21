@@ -7,7 +7,6 @@
 This is my go-to boilerplate for take-home projects, combining my favorite tech stack into a ready-to-ship monorepo setup. 
 It saves ~4 hours of setup time per project and is designed to scale smoothly as your app grows.
 
----
 
 ## What's Inside?
 
