@@ -1,5 +1,6 @@
 ![image](https://github.com/user-attachments/assets/5f5339a1-b9ce-4217-b8d9-ee7e87094f60)
 
+# ![Blog Post](https://medium.com/@yonghyun.jin13/the-only-boilerplate-you-need-for-take-home-project-9f7f9242d33c)
 
 # Full-Stack Monorepo Boilerplate for Your Take-Home Projects
 
