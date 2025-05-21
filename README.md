@@ -1,6 +1,10 @@
-# Turborepo Starter
+![image](https://github.com/user-attachments/assets/5f5339a1-b9ce-4217-b8d9-ee7e87094f60)
 
-This Turborepo starter is a modern, high-performance monorepo setup, designed for building full-stack applications using Next.js and Express with TypeScript. It provides a solid foundation for rapidly developing, scaling, and maintaining projects in a unified codebase.
+
+# Full-Stack Boilerplate: Next.js 15 + Express.js + Supabase + Shadcn UI + Turborepo
+
+This is my go-to boilerplate for take-home projects, combining my favorite tech stack into a ready-to-ship monorepo setup. 
+It saves ~4 hours of setup time per project and is designed to scale smoothly as your app grows.
 
 ---
 
