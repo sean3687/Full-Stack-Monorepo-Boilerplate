@@ -49,7 +49,9 @@ yarn install
 
 ---
 
-## 📦 Supabase Database setup
+## 📂 Setup Database
+
+This section is for users who have just cloned the repository and need to set up the local database. This project uses Supabase for database management, with migrations handled through the Supabase CLI. Follow these steps to get your database up and running.
 
 You can open up http://127.0.0.1:54323 to open supabase studio. 
 
@@ -84,12 +86,6 @@ packages/
 ├── eslint-config/ # Shared ESLint config
 └── typescript-config/ # Shared TypeScript config
 ```
-
----
-
-## 📂 Setup Database
-
-This section is for users who have just cloned the repository and need to set up the local database. This project uses Supabase for database management, with migrations handled through the Supabase CLI. Follow these steps to get your database up and running.
 
 
 ---
