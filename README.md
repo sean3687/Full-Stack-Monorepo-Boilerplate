@@ -45,6 +45,18 @@ yarn install
 
 ---
 
+## 📦 Supabase Database setup
+
+You can open up http://127.0.0.1:54323 to open supabase studio. 
+
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:54322/postgres
+SUPABASE_URL=http://localhost:54321
+SUPABASE_KEY=
+NODE_ENV=development
+```
+
+
 ## 📄 Scripts
 
 Here are some useful scripts for development:
