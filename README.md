@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/5f5339a1-b9ce-4217-b8d9-ee7e87094f60)
 
 
-# Full-Stack Boilerplate: Next.js 15 + Express.js + Supabase + Shadcn UI + Turborepo
+# Full-Stack Monorepo Boilerplate: For your Take home projects
 
 This is my go-to boilerplate for take-home projects, combining my favorite tech stack into a ready-to-ship monorepo setup. 
 It saves ~4 hours of setup time per project and is designed to scale smoothly as your app grows.
