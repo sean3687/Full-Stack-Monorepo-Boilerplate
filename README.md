@@ -62,6 +62,11 @@ SUPABASE_KEY=
 NODE_ENV=development
 ```
 
+```bash
+cd packages
+supabase init
+```
+
 
 ## 📄 Scripts
 
